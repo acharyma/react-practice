@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="096637f5-7efa-46cc-b1c8-80d9b3dbf58f" name="Default Changelist" comment="eslint script added to package.json as &quot;lint&quot;">
+    <list default="true" id="096637f5-7efa-46cc-b1c8-80d9b3dbf58f" name="Default Changelist" comment="eslint script ran; still some errors left to resolve">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tweet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608662983565</updated>
-      <workItem from="1608662986600" duration="7026000" />
+      <workItem from="1608662986600" duration="7432000" />
+      <workItem from="1608747732698" duration="672000" />
+      <workItem from="1608824886966" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="React App Created">
       <created>1608667005616</created>
@@ -80,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608672142604</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eslint script ran; still some errors left to resolve">
+      <created>1608672367640</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608672367640</updated>
+    </task>
+    <task id="LOCAL-00007" summary="eslint script ran; still some errors left to resolve">
+      <created>1608672380316</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608672380316</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="React App Created" />
@@ -103,6 +121,7 @@
     <MESSAGE value="Merged to work with Yarn" />
     <MESSAGE value="eslint attempt" />
     <MESSAGE value="eslint script added to package.json as &quot;lint&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="eslint script added to package.json as &quot;lint&quot;" />
+    <MESSAGE value="eslint script ran; still some errors left to resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="eslint script ran; still some errors left to resolve" />
   </component>
 </project>

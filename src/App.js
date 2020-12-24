@@ -12,7 +12,12 @@ function App() {
 
   return (
     <div className="App">
-        {users.map(user => (<Tweet name={user.name} tweet={user.tweet} />))}
+        {users.map(user => (
+            <div key={user.id}>
+                <Tweet name={user.name} tweet={user.tweet} />
+            </div>
+            )
+        )}
 
     </div>
   );

@@ -1,11 +1,18 @@
 import React, {useState} from 'react';
 import './Tweet.css';
+import PropTypes from 'prop-types';
+
 
 
 function Tweet(props) {
 
-    const [isLiked, setLike] = useState(false)
-    const [likes, addOrRemoveLike] = useState(0)
+    const [isLiked, setLike] = useState(false);
+    const [likes, addOrRemoveLike] = useState(0);
+
+    Tweet.propTypes = {
+        name: PropTypes.any,
+        tweet: PropTypes.any,
+    }
 
     const likeClicked = () => {
         setLike(!isLiked);
