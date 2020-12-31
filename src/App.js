@@ -1,25 +1,27 @@
 // import logo from './logo.svg';
-import React, {useState} from 'react';
-import Tweet from './Tweet'
+import React from 'react';
+import TweetPage from "./TweetPage";
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+} from "react-router-dom";
+import MainPage from "./MainPage";
 
 function App() {
-    const [users] = useState([
-        {name: "Manogya", tweet: "That's the whole tweet"},
-        {name: "Suyogya", tweet: "Word"},
-        {name: "Someone", tweet: "The show must go on"}
-    ])
 
   return (
-    <div className="App">
-        {users.map(user => (
-            <div key={user.id}>
-                <Tweet name={user.name} tweet={user.tweet} />
-            </div>
-            )
-        )}
-
-    </div>
+      <Router baseName="/" hashType="slash">
+          <Switch>
+              <Route path="/tweets">
+                  <TweetPage />
+              </Route>
+              <Route path="/">
+                  <MainPage />
+              </Route>
+          </Switch>
+      </Router>
   );
 }
 
